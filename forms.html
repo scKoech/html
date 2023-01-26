@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+</head>
+<style>
+  form {
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Lohit Bengali";
+    color: #140028;
+    float: left;
+  }
+  body{
+    background-color: #dabcea;
+  }
+  h2 {
+    color: #6e1d00;
+    font-family: Inter;
+  }
+  mark{
+    color: #033f64;
+  }
+  img{
+    alignment: left;
+    width: 900px;
+  }
+</style>
+<body>
+<h2><mark><strong>Student Registration Form!!!!</strong></mark></h2>
+<form action="iframe.html">
+  <label for="fname">Full Names</label><br>
+  <input type="text" id="fname" placeholder="Enter Name"><br>
+  <label for="email">email address</label><br>
+  <input type="email" id="email" placeholder="Enter Email"><br>
+  <label for="pnumber">Phone Number</label><br>
+  <input type="text" id="pnumber" placeholder="Enter Phone Number"><br>
+  <label for="D.O.B">Date of Birth</label><br>
+  <input type="date" id="D.O.B"><br>
+  <label for="male">Male</label>
+  <input type="radio" id="male" name="Gender">
+  <label for="female">Female</label>
+  <input type="radio" id="female" name="Gender"><br>
+  <label for="course">Course Taken</label>
+  <select name="course" id="course">
+  <option value="javascript">Javascript</option>
+  <option value="python">Python</option>
+  <option value="android">Android</option>
+  <option value="React JS">React JS</option>
+  <option value="HTML">HTML</option>
+  <option value="Full stack">Full Stack Development</option>
+  </select><br>
+  <label for="image">Profile picture</label><br>
+  <input type="file" id="image"><br>
+  <label for="password">Password</label><br>
+  <input type="password" id="password" placeholder="Key in password"><br>
+   <input type="submit" value="Sign up">
+  <img src="img/school.jpeg" alt="">
+</form>
+
+<button type="button" onclick="alert('Welcome')">Click</button>
+</body>
+</html>

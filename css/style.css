@@ -1,0 +1,49 @@
+p{
+  color: #146098;
+  font-family: Dialog;
+  font-size: 18px;
+  text-align: justify;
+
+  width: 1000px;
+  size: B5;
+  object-fit: contain;
+ }
+button {
+  color: crimson;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  background-color: floralwhite;
+  border: darkblue;
+
+  border: 15pt;
+  margin: 20px;
+}
+td,th{
+  border: 2px solid mediumpurple;
+  padding: 10px;
+
+}
+table{
+  width: 90%;
+  border-collapse:collapse;
+  font-family: Chilanka;
+  text-align: center;
+  color: #580060;
+  margin: 20px;
+  background-color: #dbf1e2;
+}
+li,a{
+  color: #580060;
+  padding: 25px;
+  float: left;
+
+
+
+}
+ol{
+  color: thistle;
+}
+
+
+
