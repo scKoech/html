@@ -10,13 +10,15 @@
 <style>
   form {
     padding: 10px;
-    font-size: 15px;
+
     font-family: "Lohit Bengali";
     color: #140028;
     float: left;
   }
   body{
     background-color: #dabcea;
+    text-align: center;
+    font-size: xx-large;
   }
   h2 {
     color: #6e1d00;
@@ -44,7 +46,9 @@
   <label for="male">Male</label>
   <input type="radio" id="male" name="Gender">
   <label for="female">Female</label>
-  <input type="radio" id="female" name="Gender"><br>
+  <input type="radio" id="female" name="Gender">
+  <label for="Other">Other</label>
+  <input type="radio" id="Other" name="Gender"><br>
   <label for="course">Course Taken</label>
   <select name="course" id="course">
   <option value="javascript">Javascript</option>
@@ -58,10 +62,11 @@
   <input type="file" id="image"><br>
   <label for="password">Password</label><br>
   <input type="password" id="password" placeholder="Key in password"><br>
-   <input type="submit" value="Sign up">
-  <img src="img/school.jpeg" alt="">
+   <input type="submit" value="Sign up"><br>
+  <img src="img/school.jpeg"width alt="">
 </form>
 
 <button type="button" onclick="alert('Welcome')">Click</button>
+<br>
 </body>
 </html>
